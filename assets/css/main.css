@@ -1,0 +1,14 @@
+@media (max-width: 400px) {
+  .show {
+    display: none;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+/*# sourceMappingURL=main.css.map */

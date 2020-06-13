@@ -1,0 +1,39 @@
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray
+}
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.nav ul {
+    list-style: none;
+
+}
+
+@media (max-width:400px) {
+    .nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+ 
+    
+}
+
