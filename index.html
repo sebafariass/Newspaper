@@ -5,27 +5,33 @@
     <meta charset="UTF-8">
     <title>Desafio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+  
 
 </head>
 
 <body>
+<!-- nav -->
+    <nav id="navLife"> 
     <div class="contenedor">
         <div class="menu">
-            <div class="logo">Diario</div>
-            <div class="nav">
+            <div class="menu__logo">Diario</div>
+            <div class="menu__nav">
                 <ul>
                     <li class="show"><a href="">Nosotros</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li class="contact"><a href="">Contacto</a></li>
                     <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
                 </ul>
             </div>
         </div>
-        <div class="contenido">
-            <div class="listad-noticias">
+    </nav>
+
+
+        <div class="contenido row">
+            <div class="listad-noticias col-xs-12  col-md-9 row">
                 <!-- Noticia 1-->
-                <div class="noticia">
+                <div class="noticia  col-xs-12 col-sm-6 col-md-4">
                     <div class="cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -39,7 +45,7 @@
                     </div>
                 </div>
                 <!-- Noticia 2-->
-                <div class="noticia">
+                <div class="noticia  col-xs-12 col-sm-6 col-md-4">
                     <div class="cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -53,7 +59,7 @@
                     </div>
                 </div>
                 <!-- Noticia 3-->
-                <div class="noticia">
+                <div class="noticia  col-xs-12 col-sm-6 col-md-4">
 
                     <div class="cabecera">
                         <h2>
@@ -69,7 +75,7 @@
                 </div>
 
                 <!-- Noticia 4-->
-                <div class="noticia">
+                <div class="noticia  col-xs-12 col-sm-6 col-md-4">
                     <div class="cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -83,7 +89,7 @@
                     </div>
                 </div>
                 <!-- Noticia 5-->
-                <div class="noticia">
+                <div class="noticia col-xs-12 col-sm-6 col-md-4">
                     
                     <div class="cabecera">
                         <h2>
@@ -98,7 +104,7 @@
                     </div>
                 </div>
                  <!-- Noticia 6-->
-                <div class="noticia">
+                <div class="noticia col-xs-12 col-sm-6 col-md-4">
                     <div class="cabecera">
                         <h2>
                             Lorem ipsum dolor sit amet,
@@ -114,7 +120,11 @@
             </div>
 
 
-            <div class="listado-derecho">
+
+
+    
+            
+            <div class="listado-derecho col-md-3">
                 <div class="cabecera-listado">
                     <h1>Nosotros </h1>
                     <p>
@@ -125,11 +135,11 @@
                 </div>
                 <div class="tags">
                     <h1>Tags </h1>
-                    <ul>
-                        <li>Viajes</li>
-                        <li>Noticias</li>
-                        <li>Comida</li>
-                    </ul>
+                    <div class="button">
+                       <button class="button__tags">Viajes</button> 
+                       <button class="button__tags">Noticias</button>
+                       <button class="button__tags">Comida</button>
+                    </div>   
                 </div>
                 <div class="noticias-destacadas">
                     <h1>Destacados </h1>
@@ -147,17 +157,27 @@
                     </div>
                 </div>
             </div>
+           
+           
         </div>
+
+        <!-- articulo newsletter-->
+        <article id="almostFoot"> 
         <div class="newsletter">
             <h2>Lorem ipsum dolor sit amet</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             <div class="group">
-                <input type="text" name=""><button>Suscríbete</button>
+                <input type="button" name=""><button>Suscríbete</button>
             </div>
         </div>
+        </article>
+
+        <!-- footer-->
+        <footer id="footyEnd"> 
         <div class="footer">
             <p>Todos los derechos reservados</p>
         </div>
+    </footer>
     </div>
 </body>
 

@@ -1,0 +1,13 @@
+// Media queries para desaparecer texto de li de navegacion 
+
+@media (max-width: 768px) {
+    .show {
+        display: none;
+        justify-content: space-between;
+        
+    }
+    // padding de a contacto
+    .contact {
+        padding-right: 20px;;
+    }
+}

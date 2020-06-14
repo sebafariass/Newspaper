@@ -1,39 +1,87 @@
-.nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.menu {
+
+// Info datos navegacion 
+
+
+.contenedor {
     width: 100%;
-    padding: 10px;
-    border-bottom: 1px solid gray
+    padding: 8px;
+
+ 
 }
 
-
-
-.logo {
+.menu__logo {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    display: inline-block;
+    
 }
 
-.nav {
-    display: inline-block;
-    width: 100%;
-    text-align: right;
+.input-menu {
+    border-radius: 30px;
 }
 
-.nav ul {
+.menu__nav {
+
+    width: 50%;
+}
+// media querie de barra nav li
+@media (min-width:768px) {
+    .menu__nav {
+
+        width: 25%;
+    }
+}
+
+
+
+.menu__nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu__nav ul {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 
 }
 
-@media (max-width:400px) {
-    .nav ul {
+// division menu
+.menu {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// li navegacion para hacerla desaparecer
+@media (max-width:768px) {
+    .menu__nav ul {
         display: flex;
         justify-content: space-around;
+       
+       
     }
  
     
+}
+
+.input-menu {
+    border-radius: 30px;
+}
+
+
+img {
+    width: 100%;
+    padding: 20px 0px;
+  
+}
+
+h2 {
+    padding: 8px 0px;
+    text-align: center;
 }
 

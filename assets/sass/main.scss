@@ -1,6 +1,13 @@
+//components
+@import 'components/navbar';
+@import 'components/button';
 
-@import 'abstract/variables';
-@import 'base/typography';
+
+//layout 
 @import 'layout/grid';
+@import 'layout/navegation';
+@import 'layout/news';
+@import 'layout/footer';
+@import 'layout/sidebar';
 
 @import 'themes/theme';

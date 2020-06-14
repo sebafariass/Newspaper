@@ -1,0 +1,34 @@
+// aside derecho 
+.listado-derecho {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .listado-derecho {
+        display: block;
+        
+        
+    }
+}
+.listado-derecho{
+    padding: 0px 30px;
+}
+
+ @media (max-width:768px) {
+    .listad-noticias {
+       
+        width: 100%;
+        
+       
+    }
+ }
+
+.cabecera-listado {
+
+    border-bottom: 1px solid gray;
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+    padding: 10px;
+}

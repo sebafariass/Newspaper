@@ -1,0 +1,43 @@
+
+// Botones de sidebar
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+.button {
+    text-align: center;
+}
+.button__tags {
+    background-color: darkolivegreen;
+    color: #fff;
+    border-color: black;
+    margin: 5px;
+}
+.group button {
+    background-color: coral;
+    color: white;
+}
+
+
+.tags {
+    padding: 10px;
+  }
+  
+  .tags ul {
+      padding: 0;
+      list-style: none;
+  }
+  
+  .tags ul li {
+      padding: 2px 4px;
+      background-color: steelblue;
+      margin-right: 1px;
+      color: white;
+      
+      
+  }
